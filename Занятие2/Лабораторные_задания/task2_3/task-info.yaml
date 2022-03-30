@@ -35,7 +35,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 619
+  - offset: 644
     length: 25
     placeholder_text: '# TODO распечатать фамилии и их номера'
     initial_state:
