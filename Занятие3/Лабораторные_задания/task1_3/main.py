@@ -1,5 +1,7 @@
 def get_list_number_divisors(number):
-    ...  # TODO найти список делителей числа number
+
+    list_[]  # TODO найти список делителей числа number
+    x
 
 
 if __name__ == "__main__":
