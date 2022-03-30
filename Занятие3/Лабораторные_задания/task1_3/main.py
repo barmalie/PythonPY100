@@ -1,7 +1,11 @@
 def get_list_number_divisors(number):
+    list_ = [1,2,3,4,5,6,7,8,9,number]
+    number = number
+    while number=> list_:
+        print("done")
 
-    list_[]  # TODO найти список делителей числа number
-    x
+
+
 
 
 if __name__ == "__main__":

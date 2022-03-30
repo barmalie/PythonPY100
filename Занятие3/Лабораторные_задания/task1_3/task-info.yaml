@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 43
-    length: 57
+  - offset: 145
+    length: 2
     placeholder_text: '...  # TODO найти список делителей числа number'
     initial_state:
       length: 47

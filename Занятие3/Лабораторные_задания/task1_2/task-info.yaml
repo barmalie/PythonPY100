@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 109
+    length: 140
     placeholder_text: '# TODO запишите здесь функцию factorial'
     initial_state:
       length: 39
@@ -19,7 +19,7 @@ files:
               result *= num
 
           return result
-  - offset: 184
+  - offset: 215
     length: 68
     placeholder_text: '# TODO распечатать результат выполнения функции factorial от
       числа 5'
