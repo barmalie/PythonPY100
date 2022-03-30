@@ -1,9 +1,16 @@
 def main():
     n = 1  # первое натуральное число
     current_sum = 0  # текущая сумма
-    max_sum = 500  # максимальная сумма
+    max_sum  = 500  # максимальная сумма
+    while True:
+        if current_sum+n**2 > max_sum:
+            break
+        current_sum += n**2
+        n +=1
+    return  n, current_sum
 
-    while current_sum <= 500:
+
+
 
 
 

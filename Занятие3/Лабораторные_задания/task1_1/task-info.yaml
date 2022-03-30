@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 132
-    length: 26
+  - offset: 272
+    length: 1
     placeholder_text: '# TODO  найти количество чисел сумма квадратов, которых не
       превышает 500'
     initial_state:
