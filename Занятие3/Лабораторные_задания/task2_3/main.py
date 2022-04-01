@@ -1,5 +1,7 @@
 def get_unique_words(str_words: str):
-    ...  # TODO найти список слов в строке исключив пустые строки
+    list_words = str_words.lower().split()
+    new_str = " ".join(list_words)
+
 
     ...  # TODO вывести множество уникальных слов
 

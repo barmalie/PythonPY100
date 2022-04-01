@@ -3,21 +3,21 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 42
-    length: 61
+  - offset: 38
+    length: 78
     placeholder_text: '...  # TODO найти список слов в строке исключив пустые строки'
     initial_state:
       length: 61
       offset: 42
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       words_list_without_empty_string = []
           for word in str_words.split(" "):
               if word:
                   words_list_without_empty_string.append(word)
-  - offset: 109
+  - offset: 122
     length: 45
     placeholder_text: '...  # TODO вывести множество уникальных слов'
     initial_state:
@@ -25,7 +25,7 @@ files:
       offset: 109
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: return set(words_list_without_empty_string)
   text: |
     def get_unique_words(str_words: str):
@@ -40,6 +40,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
