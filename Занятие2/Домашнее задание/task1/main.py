@@ -6,9 +6,8 @@ if __name__ == "__main__":
     min_value = list_[min_value_index]
 
     # TODO заменить на enumerate
-    for i in range(len(list_)):
-        current_value = list_[i]
-        if current_value <= min_value:
+    for i, current_value in enumerate(list_):
+        if current_value < min_value:
             min_value = current_value
             min_value_index = i
 

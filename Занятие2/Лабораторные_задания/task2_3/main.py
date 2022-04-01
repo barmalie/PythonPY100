@@ -26,5 +26,5 @@ if __name__ == "__main__":
         "Никитин",
         "Соловьёв"
     ]
-    for i in enumerate(index,surname_list):
-    print(index,surname_list)
+    for index,surname_list in enumerate(surname_list, start = 1):
+        print(index,surname_list)
