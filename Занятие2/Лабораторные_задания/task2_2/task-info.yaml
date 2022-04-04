@@ -12,8 +12,8 @@ files:
     length: 35
     placeholder_text: '...  # TODO заводим переменную для суммы'
     initial_state:
-      length: 40
-      offset: 38
+      length: 35
+      offset: 35
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -24,8 +24,8 @@ files:
       ...:  # TODO диапазон чисел
               ...
     initial_state:
-      length: 39
-      offset: 98
+      length: 75
+      offset: 89
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -37,7 +37,7 @@ files:
     placeholder_text: '# TODO печатаем ответ'
     initial_state:
       length: 21
-      offset: 143
+      offset: 170
     initialized_from_dependency: false
     selected: false
     status: Solved
