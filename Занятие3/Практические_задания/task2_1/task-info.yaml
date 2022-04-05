@@ -1,0 +1,52 @@
+type: theory
+files:
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 64
+    length: 86
+    placeholder_text: '...  # TODO установить текущую сумму, которая будет с каждым
+      годом уменьшаться'
+    initial_state:
+      length: 78
+      offset: 64
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: start_money
+  - offset: 176
+    length: 154
+    placeholder_text: '# TODO найти минимальное количество лет'
+    initial_state:
+      length: 39
+      offset: 168
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: |-
+      while True:
+              current_money = current_money * (1 - inflation)
+              count_years += 1
+              if current_money <= (start_money / 2):
+                  break
+  text: |
+    def get_year_count(start_money, inflation):
+        current_money = ...  # TODO установить текущую сумму, которая будет с каждым годом уменьшаться
+        count_years = 0
+
+        # TODO найти минимальное количество лет
+
+        return count_years
+
+
+    if __name__ == "__main__":
+        print(get_year_count(10000, 0.2))
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Solved
+feedback:
+  time: Tue, 05 Apr 2022 20:07:04 UTC
+record: -1
+post_submission_on_open: true

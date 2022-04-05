@@ -1,0 +1,1 @@
+print(sum([x for x in range(1, 100) if x % 4 == 0])/(len([x for x in range(1, 100) if x % 4 == 0])))
