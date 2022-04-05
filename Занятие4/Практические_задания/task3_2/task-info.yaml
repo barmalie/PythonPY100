@@ -11,7 +11,7 @@ files:
       offset: 196
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: print(sum(cart.values()))
   text: |
     if __name__ == "__main__":
@@ -29,6 +29,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
