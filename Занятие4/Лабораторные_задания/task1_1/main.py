@@ -1,5 +1,6 @@
 def task(n, m):  # TODO записать функцию с аннотацией типов
-    ...  # TODO с помощью list comprehension найти квадраты целых чисел
+
+    return [n**2 for n in range(n,m+1)]
 
 
 if __name__ == "__main__":

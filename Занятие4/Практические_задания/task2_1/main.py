@@ -1,6 +1,6 @@
 if __name__ == "__main__":
     num1 = 12345
-    print(list(str(num1)))
+    print(list(str(num1)))# превод в строку и сразу же в список
 
     # Конструкция для разбития числа на цифры
     digits_list = [int(d) for d in str(num1)]
