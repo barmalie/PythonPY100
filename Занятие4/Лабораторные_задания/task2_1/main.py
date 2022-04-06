@@ -1,17 +1,17 @@
 if __name__ == "__main__":
     number = 123456789
 
-    list_digits = ...  # TODO c помощью list comprehension получить список цифр числа
+    list_digits = [int(d) for d in str(number)]  # TODO c помощью list comprehension получить список цифр числа
     print(list_digits)
 
-    print(...)  # TODO найти сумму цифр числа
+    print(sum(list_digits))  # TODO найти сумму цифр числа
 
-    print(...)  # TODO найти сумму всех четных чисел
+    print(sum([d for d in list_digits if d%2 ==0]))  # TODO найти сумму всех четных чисел #немного не додумал где sum поставить
 
-    print(...)  # TODO найти количество цифр
+    print(len(list_digits))  # TODO найти количество цифр
 
-    print(...)  # TODO найти минимальную цифру
+    print(min(list_digits))  # TODO найти минимальную цифру
 
-    print(...)  # TODO все цифры стоящие на нечетных местах
+    print(list_digits[0::2])  # TODO все цифры стоящие на нечетных местах
 
-    print(...)  # TODO найти разность между первой и последней цифрой
+    print(list_digits[0]-list_digits[8])
