@@ -10,13 +10,13 @@ files:
   visible: true
   placeholders:
   - offset: 244
-    length: 41
+    length: 62
     placeholder_text: '{...}  # TODO записать dict comprehension'
     initial_state:
       length: 41
       offset: 244
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '{i: i ** 2 for i in range(n)}'
   text: |

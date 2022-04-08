@@ -16,7 +16,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: 'def task(n: int, m: int) -> list:'
   - offset: 64
     length: 67
@@ -27,7 +27,7 @@ files:
       offset: 64
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: return [num ** 2 for num in range(n, m+1)]
   text: |
     def task(n, m):  # TODO записать функцию с аннотацией типов
@@ -43,5 +43,12 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 08 Apr 2022 19:46:45 UTC
+  expected: |
+    [100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
+  actual: |
+    None
 record: -1
